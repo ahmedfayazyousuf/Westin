@@ -2,10 +2,10 @@
 import logo from '../Styles&Assets/logo.png';
 import whatstele from '../Styles&Assets/whatstele.png';
 import Email from '../Styles&Assets/Email.png';
-import Rose from '../Styles&Assets/Rose.png';
+import Rosee from '../Styles&Assets/Rose.png';
 import '../Styles&Assets/style.css';
 
-const VIPRSVP = () =>{
+const Rose = () =>{
 
     return(
         <div  className='back' style={{display:"flex", flexDirection:"column", width:"100%", justifyContent:"center", alignItems:"center"}}>
@@ -13,7 +13,7 @@ const VIPRSVP = () =>{
             <div className="mainer">
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '10px'}}>
-                    <img style={{height: '180px', marginTop: '50px'}} src={Rose} alt="Employee Logo"/>
+                    <img style={{height: '180px', marginTop: '50px'}} src={Rosee} alt="Employee Logo"/>
                 </div>
 
                 <div style={{display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center'}}> 
@@ -31,7 +31,6 @@ const VIPRSVP = () =>{
                                 <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>054 252 7944<br></br>04 457 3296</p>
                             </div>
                         </div>
-
 
                         <div style={{width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', marginTop: '-20px'}}>
                             <div style={{width: '40%', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
@@ -58,4 +57,4 @@ const VIPRSVP = () =>{
     )
 }
 
-export default VIPRSVP
+export default Rose

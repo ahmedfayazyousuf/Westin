@@ -1,13 +1,11 @@
-import logo2 from '../Styles&Assets/logo2.png';
+// import logo2 from '../Styles&Assets/logo2.png';
 import logo from '../Styles&Assets/logo.png';
-import { useNavigate } from 'react-router-dom';
+import whatstele from '../Styles&Assets/whatstele.png';
+import Email from '../Styles&Assets/Email.png';
+import Saidd from '../Styles&Assets/Said.png';
 import '../Styles&Assets/style.css';
 
-const GuestRSVP = () =>{
-    const navigate = useNavigate();
-    const handleClick = () => navigate('/guestregistration');
-
-    const handleClick2 = () => navigate('/success2');
+const Said = () =>{
 
     return(
         <div  className='back' style={{display:"flex", flexDirection:"column", width:"100%", justifyContent:"center", alignItems:"center"}}>
@@ -15,42 +13,42 @@ const GuestRSVP = () =>{
             <div className="mainer">
 
                 <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '10px'}}>
-                    <img style={{width: '320px', marginTop: '50px'}} src={logo} alt="Geely Logo"/>
+                    <img style={{height: '180px', marginTop: '50px'}} src={Saidd} alt="Employee Logo"/>
                 </div>
 
                 <div style={{display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center'}}> 
                     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', maxWidth: '460px', marginTop: '10px'}}>
-                        <p style={{color: 'white', margin: '15px', fontSize: '14px'}}><span style={{fontWeight: '900'}}>Get ready to experience the Drive of the Future</span><br></br>with the global automobile powerhouse GEELY Auto, in partnership with AGMC – the official distributor in the UAE.</p>
-                        <p style={{color: 'white', margin: '15px', fontSize: '14px'}}>We invite you to witness the dawn of a new era in SMART mobility, as we reveal the latest revolution in automotive technology.</p>
-                        <p style={{color: 'white', margin: '15px', fontSize: '14px', marginBottom: '30px'}}>Join us for an exclusive evening of celebrations and discovery.<br></br><span style={{fontWeight: '900'}}>We can't wait to Drive the Future with you!</span></p>
+                        <p style={{color: 'black', margin: '15px', fontSize: '20px', fontWeight: '900'}}>SAID MURADOV</p>
+                        <p style={{color: 'black', fontSize: '16px', fontWeight: '300', fontStyle: 'italic', marginTop: '-15px'}}>Sales Agent</p>
+                        <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>Westin Arabia Real Estate LLC ORN: 32133<br></br>Sheikh Zayed Road - Business Bay,<br></br>Burlington Tower, 23 Floor,<br></br>Office No. 2312 - 2316,<br></br>P.O. Box 118495, Dubai<br></br>United Arab Emirates | WestinArabia.com</p>
                         
-                        <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', width: '330px', height: '30px'}}>
-                            <div style={{display: 'flex', width: '50%', textAlign: 'right', justifyContent: 'flex-end', alignItems: 'flex-end', paddingRight: '10px', borderRight: '0.5px solid white'}}>
-                                <p style={{color: 'white', textAlign: 'right', letterSpacing: '2px', padding: '0', margin: '0'}}>May 17, 2023</p>
+                        <div style={{width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
+                            <div style={{width: '50%', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
+                                <img style={{height: '30px'}} src={whatstele} alt="Westin Logo"/>
                             </div>
 
-                            <div style={{display: 'flex', width: '50%', paddingLeft: '10px', borderLeft: '0.5px solid white'}}>
-                                <p style={{color: 'white', letterSpacing: '2px', padding: '0', margin: '0'}}>6PM SHARP</p>
+                            <div style={{width: '50%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
+                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>054 252 7944<br></br>04 457 3296</p>
                             </div>
                         </div>
-                        
-                        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '330px', textAlign: 'center', marginTop: '20px'}}>
-                            <p style={{color: 'white', fontSize: '22px', margin: '0', letterSpacing: '2px'}}>GEELY UAE SHOWROOM</p>
-                            <p style={{color: 'white', marginTop: '0px', letterSpacing: '2px', fontSize: '14px'}}>DEIRA – DUBAI</p>
+
+                        <div style={{width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', marginTop: '-20px'}}>
+                            <div style={{width: '40%', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
+                                <img style={{height: '30px'}} src={Email} alt="Westin Logo"/>
+                            </div>
+
+                            <div style={{width: '60%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
+                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>@westinarabia.com</p>
+                            </div>
                         </div>
+
+                        
                     </div>
 
                 </div>
 
-                <div style={{display: 'flex', width: '100%'}}> 
-                    <div style={{width: '100%'}}>
-                        <button onClick={handleClick} style={{backgroundColor: '#002277', color: 'white', width: '150px', height: '37px' , border: '1px solid white', cursor: 'grab', marginTop: '20px', marginRight: '20px'}}>YES</button>
-                        <button onClick={handleClick2} style={{backgroundColor: '#002277', color: 'white', width: '150px', height: '37px' , border: '1px solid white', cursor: 'grab', marginTop: '20px'}}>NO</button>
-                    </div>
-                </div>
-
-                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginTop: '35px', marginBottom: '150px'}}>
-                    <img style={{width: '200px'}} src={logo2} alt="Geely Logo"/>
+                <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', marginBottom: '150px'}}>
+                    <img style={{width: '200px'}} src={logo} alt="Westin Logo"/>
                 </div>
 
             </div>
@@ -59,4 +57,4 @@ const GuestRSVP = () =>{
     )
 }
 
-export default GuestRSVP
+export default Said
