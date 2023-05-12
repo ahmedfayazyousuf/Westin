@@ -28,7 +28,7 @@ const Rose = () =>{
                             </div>
 
                             <div style={{width: '50%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>971 54 252 7944<br></br>04 457 3296</p>
+                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>+971 54 252 7944<br></br>04 457 3296</p>
                             </div>
                         </div>
 
