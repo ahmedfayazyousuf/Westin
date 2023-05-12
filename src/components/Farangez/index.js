@@ -38,7 +38,7 @@ const Farangez = () =>{
                             </div>
 
                             <div style={{width: '70%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="mailto:farangez.s@westinarabia.com"> style={{color: 'black'}}farangez.s@westinarabia.com</a></p>
+                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="mailto:farangez.s@westinarabia.com" style={{color: 'black'}}>farangez.s@westinarabia.com</a></p>
                             </div>
                         </div>
 
