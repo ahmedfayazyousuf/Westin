@@ -20,7 +20,7 @@ const Rose = () =>{
                     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', maxWidth: '460px', marginTop: '10px'}}>
                         <p style={{color: 'black', margin: '15px', fontSize: '20px', fontWeight: '900'}}>ROSE KITARIEVA</p>
                         <p style={{color: 'black', fontSize: '16px', fontWeight: '300', fontStyle: 'italic', marginTop: '-15px'}}>Sales Agent</p>
-                        <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>Westin Arabia Real Estate LLC | ORN: 32133<br></br>Sheikh Zayed Road - Business Bay,<br></br>Burlington Tower, 23 Floor,<br></br>Office No. 2312 - 2316,<br></br>P.O. Box 118495, Dubai<br></br>United Arab Emirates | <a href="https://westinarabia.com/"> WestinArabia.com</a></p>
+                        <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>Westin Arabia Real Estate LLC | ORN: 32133<br></br>Sheikh Zayed Road - Business Bay,<br></br>Burlington Tower, 23 Floor,<br></br>Office No. 2312 - 2316,<br></br>P.O. Box 118495, Dubai<br></br>United Arab Emirates | <a href="https://westinarabia.com/" style={{color: 'black'}}> WestinArabia.com</a></p>
                         
                         <div style={{width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
                             <div style={{width: '50%', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
@@ -28,7 +28,7 @@ const Rose = () =>{
                             </div>
 
                             <div style={{width: '50%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>+971 54 252 7944<br></br>04 457 3296</p>
+                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="tel:971542527944" style={{color: 'black'}}>+971 54 252 7944</a><br></br><a href="tel:044573296" style={{color: 'black'}}>04 457 3296</a></p>
                             </div>
                         </div>
 
@@ -38,7 +38,7 @@ const Rose = () =>{
                             </div>
 
                             <div style={{width: '70%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>rose.k@westinarabia.com</p>
+                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="mailto:rose.k@westinarabia.com" style={{color: 'black'}}>rose.k@westinarabia.com</a></p>
                             </div>
                         </div>
 
