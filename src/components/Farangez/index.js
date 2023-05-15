@@ -28,7 +28,7 @@ const Farangez = () =>{
                             </div>
 
                             <div style={{width: '50%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="tel:971501831085" style={{color: 'black'}}>+971 50 183 1085</a><br></br><a href="tel:044573296" style={{color: 'black'}}>04 457 3296</a></p>
+                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="tel:971501831085" style={{color: 'black'}}>+971 50 183 1085</a><br></br><a href="tel:044573296" style={{color: 'black'}}>+971 4 457 3296</a></p>
                             </div>
                         </div>
 
