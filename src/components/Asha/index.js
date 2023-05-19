@@ -25,7 +25,7 @@ const Asha = () =>{
 
                         <div style={{width: '70%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
                             <p style={{color: 'black', marginTop: '25px', fontSize: '14px'}}><a href="mailto:asha.vimal.raj@empirearabia.com" style={{color: 'black'}}>asha.vimal.raj@empirearabia.com</a></p>
-                            <p style={{color: 'black', marginTop: '-10px', fontSize: '14px'}}><a href="mailto:asha.vimal.raj@westinarabia.com" style={{color: 'black'}}>asha.vimal.raj@westinarabia.com</a></p>
+                            <p style={{color: 'black', marginTop: '-10px', fontSize: '14px'}}><a href="mailto:asha.vimalraj@westinarabia.com" style={{color: 'black'}}>asha.vimalraj@westinarabia.com</a></p>
                         </div>
                     </div>
 
