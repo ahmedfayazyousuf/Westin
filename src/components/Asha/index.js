@@ -18,7 +18,7 @@ const Asha = () =>{
                     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', maxWidth: '460px', marginTop: '10px'}}>
                         <p style={{color: 'black', margin: '15px', fontSize: '20px', fontWeight: '900'}}>ASHA VIMAL RAJ</p>
                         <p style={{color: 'black', fontSize: '16px', fontWeight: '300', fontStyle: 'italic', marginTop: '-15px'}}>Sales Supervisor</p>
-                        <p style={{color: 'black', fontSize: '16px', fontWeight: '300', marginTop: '5px'}}>ORN: 32133</p>
+                        <p style={{color: 'black', fontSize: '16px', fontWeight: '300', marginTop: '5px'}}>ORN: 32133<br></br>BRN: 51040</p>
                         <p style={{color: 'black', margin: '5px', fontSize: '14px'}}>Empire Arabia Real Estate Developers LLC<br></br>Westin Arabia Real Estate LLC<br></br>Sheikh Zayed Road - Business Bay,<br></br>Burlington Tower, 23rd Floor,<br></br>P.O. Box 118495, Dubai<br></br>United Arab Emirates<br></br><a href="https://empirearabia.com/" style={{color: 'black'}}>EmpireArabia.com</a><br></br><a href="https://westinarabia.com/" style={{color: 'black'}}> WestinArabia.com</a></p>
                         
                         <p style={{color: 'black', margin: '2px', fontSize: '14px'}}><a href="tel:971558627103" style={{color: 'black'}}>+971 55 862 7103</a><br></br><a href="tel:044573296" style={{color: 'black'}}>+971 4 457 3296</a></p>
