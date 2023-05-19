@@ -20,27 +20,14 @@ const Farangez = () =>{
                     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', maxWidth: '460px', marginTop: '10px'}}>
                         <p style={{color: 'black', margin: '15px', fontSize: '20px', fontWeight: '900'}}>ZAHID H. REHMAN</p>
                         <p style={{color: 'black', fontSize: '16px', fontWeight: '300', fontStyle: 'italic', marginTop: '-15px'}}>General Manager</p>
-                        <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>Empire Arabia Real Estate Developers LLC | Westin Arabia Real Estate LLC<br></br>Sheikh Zayed Road - Business Bay,<br></br>Burlington Tower, 23 Floor,<br></br>Office No. 2312 - 2316,<br></br>P.O. Box 118495, Dubai<br></br>United Arab Emirates | <a href="https://westinarabia.com/" style={{color: 'black'}}> WestinArabia.com</a></p>
+                        <p style={{color: 'black', margin: '15px', fontSize: '14px'}}>Empire Arabia Real Estate Developers LLC<br></br>Westin Arabia Real Estate LLC<br></br>Sheikh Zayed Road - Business Bay,<br></br>Burlington Tower, 23 Floor,<br></br>Office No. 2312 - 2316,<br></br>P.O. Box 118495, Dubai<br></br>United Arab Emirates | <a href="https://westinarabia.com/" style={{color: 'black'}}> WestinArabia.com</a></p>
                         
-                        <div style={{width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center'}}>
-                            <div style={{width: '50%', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
-                                <img style={{height: '30px'}} src={whatstele} alt="Westin Logo"/>
-                            </div>
+                        <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="tel:971501831085" style={{color: 'black'}}>+971 50 183 1085</a><br></br><a href="tel:044573296" style={{color: 'black'}}>+971 4 457 3296</a></p>
 
-                            <div style={{width: '50%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="tel:971501831085" style={{color: 'black'}}>+971 50 183 1085</a><br></br><a href="tel:044573296" style={{color: 'black'}}>+971 4 457 3296</a></p>
-                            </div>
+                        <div style={{width: '70%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
+                            <p style={{color: 'black', marginTop: '25px', fontSize: '14px'}}><a href="mailto:zahid.rehman@empirearabia.com" style={{color: 'black'}}>zahid.rehman@empirearabia.com</a></p>
+                            <p style={{color: 'black', marginTop: '-10px', fontSize: '14px'}}><a href="mailto:zahid.rehman@westinarabia.com" style={{color: 'black'}}>zahid.rehman@westinarabia.com</a></p>
                         </div>
-
-                        <div style={{width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', marginTop: '-20px'}}>
-                            <div style={{width: '30%', display: 'flex', justifyContent: 'flex-end', alignItems: 'flex-end'}}>
-                                <img style={{height: '30px'}} src={Email} alt="Westin Logo"/>
-                            </div>
-
-                            <div style={{width: '70%', display: 'flex', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                                <p style={{color: 'black', margin: '15px', fontSize: '14px'}}><a href="mailto:farangez.s@westinarabia.com" style={{color: 'black'}}>farangez.s@westinarabia.com</a></p>
-                            </div>
-                        </div>  
                     </div>
 
                 </div>
