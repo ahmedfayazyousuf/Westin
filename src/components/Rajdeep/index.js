@@ -16,7 +16,7 @@ const Rajdeep = () =>{
 
                 <div style={{display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center'}}> 
                     <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', maxWidth: '460px', marginTop: '10px'}}>
-                        <p style={{color: 'black', margin: '15px', fontSize: '20px', fontWeight: '900'}}>RAJDEEP KAUR, ARM</p>
+                        <p style={{color: 'black', margin: '15px', fontSize: '20px', fontWeight: '900'}}>RAJDEEP KAUR, ARM <span style={{fontSize: '10px', verticalAlign: 'super', marginLeft: '-4px'}}>®</span></p>
                         <p style={{color: 'black', fontSize: '16px', fontWeight: '300', fontStyle: 'italic', marginTop: '-15px'}}>Administration Manager</p>
                         <p style={{color: 'black', fontSize: '16px', fontWeight: '300', marginTop: '5px'}}>ORN: 32133</p>
                         <p style={{color: 'black', margin: '5px', fontSize: '14px'}}>Empire Arabia Real Estate Developers LLC<br></br>Westin Arabia Real Estate LLC<br></br>Sheikh Zayed Road - Business Bay,<br></br>Burlington Tower, 23rd Floor,<br></br>P.O. Box 118495, Dubai<br></br>United Arab Emirates<br></br><a href="https://empirearabia.com/" style={{color: 'black'}}>EmpireArabia.com</a><br></br><a href="https://westinarabia.com/" style={{color: 'black'}}> WestinArabia.com</a></p>
